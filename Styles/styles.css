@@ -53,45 +53,6 @@ img {
     margin-top: 20px;
 }
 
-@media(max-width:750px) {
-
-    .logo,
-    .burger {
-        height: 30px;
-    }
-
-    .c1 {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-
-    .content__1 {
-        height: 40vh;
-        width: 100%;
-        margin: 0;
-        position: relative;
-    }
-
-    .content__1 h1 {
-        
-        font-size: 39px;
-    }
-
-    .content__1 p {
-        text-align: center;
-        width: 85%;
-        font-size: 14px;
-    }
-
-}
-
 .img__container__1 {
     display: grid;
     margin: 0 50px 0 50px;
@@ -101,20 +62,6 @@ img {
 
 .top {
     margin-bottom: 100px;
-}
-
-@media(max-width:798px) {
-    .img__container__1 {
-        margin: 0;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 2px;
-    }
-    .img__container__1 img {
-        max-width: 100%;
-    }
-    .top{
-        margin: 0;
-    }
 }
 
 .content__2 {
@@ -141,36 +88,6 @@ img {
     padding: 50px;
 }
 
-@media(max-width:750px) {
-
-    .c2 {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .content__2 {
-        height: 40vh;
-        width: 100%;
-        margin: 0;
-        position: relative;
-    }
-
-    .content__2 h1 {
-        font-size: 39px;
-    }
-
-    .content__2 p {
-        text-align: center;
-        width: 85%;
-        font-size: 14px;
-    }
-}
-
 .footer {
     position: absolute;
     height: 12vh;
@@ -183,4 +100,58 @@ img {
     color: grey;
     letter-spacing:8px;
     font-size: 15px;
+}
+
+@media(max-width:798px) {
+
+    .logo,
+    .burger {
+        height: 30px;
+    }
+
+    .c1,
+    .c2 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content__1,
+    .content__2 {
+        height: 40vh;
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+
+    .content__1 h1,
+    .content__2 h1 {
+        font-size: 39px;
+    }
+
+    .content__1 p,
+    .content__2 p {
+        text-align: center;
+        width: 85%;
+        font-size: 14px;
+    }
+
+    .img__container__1 {
+        margin: 0;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2px;
+    }
+
+    .img__container__1 img {
+        max-width: 100%;
+    }
+
+    .top{
+        margin: 0;
+    }
+
 }
