@@ -19,6 +19,7 @@ img {
 }
 
 .header {
+    margin-top: 20px;
     height: 10vh;
     width: 100%;
     display: flex;
