@@ -1,2 +1,2 @@
 # Grid-Practice-Web-Page
-A website to that I made to practice the Grid
+A website that I made to practice the Grid
